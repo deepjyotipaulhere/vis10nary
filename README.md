@@ -13,3 +13,4 @@ Idea brainstorming drawing to marketable MVP in minutes. The tool to create othe
    * ```set GOOGLE_API_KEY=<YOUR_GEMINI_API_KEY>```
    * ```python generate.py```
 4. The generated code files will be generated inside the ```code``` folder
+5. ```docker-compose up``` may be execeuted inside the _files_ folder to run the project
