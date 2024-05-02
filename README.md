@@ -10,7 +10,7 @@ Idea brainstorming drawing to marketable MVP in minutes. The tool to create othe
 2. Save the captured image file to ```files``` folder
 3. Run these commands
    * ```pip install -r requirements.txt```
-   * ```set GOOGLE_API_KEY=<YOUR_GEMINI_API_KEY>```
+   * ```.env``` file is commited intentionally for ease of testing, this file may be used or also can be set using ```set GOOGLE_API_KEY=<YOUR_GEMINI_API_KEY>```
    * ```python generate.py```
 4. The generated code files will be generated inside the ```code``` folder
 5. ```docker-compose up``` may be execeuted inside the _files_ folder to run the project
